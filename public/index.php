@@ -1,4 +1,6 @@
 <?php
+
+use App\Lol;
 use App\Test;
 require '../vendor/autoload.php';
 ?>
@@ -13,6 +15,7 @@ require '../vendor/autoload.php';
 </head>
 <body>
 <h1><?= Test::helloWorld() ?>></h1>
+<h1><?= Lol::helloWorld() ?>></h1>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
